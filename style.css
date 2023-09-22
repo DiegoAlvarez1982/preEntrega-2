@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Quicksand&family=Roboto+Condensed:wght@400;700&display=swap');
+
+/*font-family: 'Roboto Condensed', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+ .header {
+background-image: URL(./img/3.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+display: flex;
+position: relative;
+min-height: 100vh;
+
+
+ }
+
+ .menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+ }
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+    
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding-right: 10px;
+    color:#ffffff;
+    display: block;
+    font-weight: bold;
+    margin: 20px;
+    /*float: left;*/
+    
+    
+}
+
+.menu .navbar ul li a:hover{
+    color:#f2cb0a;
+    display: flex;
+}
+
+
+
+.header-txt{
+    width: 40%;
+}
+.logo{
+    padding: 25px;
+    
+    
+
+}
+
+.header-txt h1{
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 600;
+    text-transform:uppercase;
+    color:#ffffff;
+    
+}
+
+.banner{
+    width: 100%;
+}
+
+.categorias .contenedor img{
+    padding: 25px;
+    margin: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.titulo .contenedor {
+    font-size: 20px;
+
+}
+
+.titulo .contenedor h1{
+    background-color: #121211;
+    color:#ffffff;
+    padding: 20px;
+}
+.especiales img{
+    padding: 10px;
+}
+
+.especiales p{
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.container-nosotros section{
+    display: flex;
+}
+
+.container-nosotros section h1{
+    font-size: 40px;
+    padding: 50px 5px;
+    text-align: center;
+}
+
+.caja{
+    padding: 10px;
+}
+
+.imagen{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    padding: 28px;
+}
+
+.contact{
+    background-color: #f2cb0a6a;
+    justify-items: center;
+    align-items: center;
+}
+
+.form_container input {
+    width: 10%;
+    display: grid;
+    padding: 5px;
+    margin: 10px;
+    
+}
+
+.footer.contenedor_footer p{
+   align-content: end;
+}
+
+#navbarNavAltMarkup{
+    display: flex;
+    justify-content: end;
+}
+
+.form_container{
+    display: inline;
+    background-color: #e0e079;
+}
